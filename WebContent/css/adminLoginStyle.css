@@ -1,0 +1,8 @@
+/*使父div随着子div的高度撑开*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

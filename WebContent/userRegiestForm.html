@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<html lang="en">
+	<head>
+		<title>Elements | Klorofil - Free Bootstrap Dashboard Template</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<!-- VENDOR CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" href="assets/css/main.css">
+		<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+		<link rel="stylesheet" href="assets/css/demo.css">
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+		<!-- Javascript -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="assets/scripts/klorofil-common.js"></script>
+		<link rel="stylesheet" href="css/userRegiest.css" />
+		<script src="js/userRegiest.js"></script>
+	</head>
+	<body background="images/cjtu06.jpg">
+			<div class="panel panel-headline userRegiest">
+				<div class="panel-heading userRegiestTitle">
+					用户注册
+				</div>
+				<div class="panel-body userRegiestContent">
+					<div class="panel">
+					<input class="form-control" type="text" maxlength="10" name="userName" id="userName" placeholder="用户昵称" />
+					<input class="form-control" type="password" maxlength="15" name="userPassword" id="userPassword" placeholder="用户密码" />
+					<input class="form-control" type="password" maxlength="15" name="repeatUserPassword" id="repeatUserPassword" placeholder="重复用户密码" />
+							<input  name="userSex" value="男" type="radio" checked="checked">
+							男
+							<input  name="userSex" value="女" type="radio">
+							女
+					<input class="form-control" type="text" maxlength="25" name="userEmail" id="userEmail" placeholder="用户邮箱" />
+					<input class="form-control" type="text" maxlength="11" name="userPhone" id="userPhone" placeholder="用户手机号" />
+					<select class="form-control" id="userOccupation" name="userOccupation">
+								<option value="平面设计师">平面设计师</option>
+								<option value="UI设计师">UI设计师</option>
+								<option value="摄影师">摄影师</option>
+								<option value="服装设计师">服装设计师</option>
+								<option value="网页设计师">网页设计师</option>
+								<option value="漫画家">漫画家</option>
+								<option value="产品设计师">产品设计师</option>
+								<option value="学生">学生</option>
+								<option value="自由画家">自由画家</option>
+								<option value="其他">其他</option>
+					</select>
+					<textarea class="form-control" maxlength="100" id="userIntroduction" name="userIntroduction" placeholder="用户介绍"></textarea>
+					
+					<button type="button" class="btn btn-default alterWorksButton" id="userRegiestButton">注册</button>
+					</form>
+					<div class="userRegiestBottom">
+						<a href="userLoginForm.jsp">返回登陆</a>
+					</div>
+				</div>
+				</div>
+			</div>
+	</body>
+</html>

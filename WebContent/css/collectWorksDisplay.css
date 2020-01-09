@@ -1,0 +1,89 @@
+.collectDisplayTitle{
+	text-align: center;
+	font-size: 25px;
+}
+
+.collectDisplayContent{
+	width: 900px;
+	height: 490px;
+	box-shadow: none;
+	margin-bottom: 0px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+
+.personalCenterContent .panel{
+	padding: 0px;
+}
+
+.worksDisplay{
+	width: 800px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #00AFF0;
+	box-shadow: none;
+}
+
+.worksDisplay:hover{
+	
+}
+
+
+.worksUploadAddress{
+	width: 120px;
+	height:120px;
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+
+.worksUploadAddress img{
+	width:100%;
+	height: 100%;
+}
+
+.worksMessage{
+	width: 600px;
+	height: 40px;
+	font-size: 13px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 3px;
+	box-shadow: none;
+}
+.worksName{
+	width: 400px;
+	font-size: 22px;
+	float: left;
+	box-shadow: none;
+}
+.worksTime{
+	float: left;
+	box-shadow: none;
+}
+.worksBottom{
+	width: 600px;
+	height: 70px;
+	float: left;
+	margin-left: 50px;
+	box-shadow: none;
+	
+}
+
+.worksIntroduction{
+	width: 300px;
+	height: 60px;
+	float: left;
+	box-shadow: none;
+}
+
+
+.deleteCollectButton{
+	float: left;
+	margin-left:190px;
+	margin-top: 30px;
+	box-shadow: none;
+}

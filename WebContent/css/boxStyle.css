@@ -1,0 +1,151 @@
+/*box样式*/
+.center ul {
+
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.center li{
+	
+	/*height: 300px;*/
+	width: 180px;
+	float: left;
+	position: relative;
+	margin: 32px;
+	overflow: hidden;
+	border-radius: 4px;
+	background-color:black;
+	
+}
+
+.card-box{
+	background-color: #BDBDBD;
+	
+}
+
+.card-img{
+	
+	height: 150px;
+	width: 180px;
+	border-radius: 4px;
+	background-color: #564121;
+	
+}
+
+.card-img img{
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+.card-info{
+	
+/*	height: 120px;*/
+	height: 75px;
+	width: 180px;
+/*	border-radius: 4px;*/
+	background-color: #123321;
+	border-bottom: 1px solid #eee;
+	padding: 11px 16px 13px;
+	position: relative;	
+	
+}
+
+.card-info-title{
+	
+	margin-bottom: 1px;
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	background-color: #E4B9B9;
+	
+}
+
+.title-content{
+	
+	display: inline-block;
+	
+	vertical-align: middle;
+	white-space: nowrap;
+
+	overflow: hidden;
+}
+
+.card-info-introduction{
+	
+	font-size: 14px;
+	/*字体颜色*/
+	color: #8a8a8a;
+	height: 18px;
+	background-color: #ffffff;
+}
+
+.card-info-num{
+	
+	font-size: 10px;
+	/*字体颜色*/
+	color: #8a8a8a;
+	height: 18px;
+	background-color: #242354;
+	
+}
+
+.card-item{
+	
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	position: relative;
+	
+	
+}
+
+.card-item-msg{
+
+	white-space: nowrap;
+
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+}
+
+.card-item-msg a{
+
+	font-size: 12px;
+	
+	float: left;
+}
+
+.card-item-msg img{
+	
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+	
+}
+
+.time{
+
+	float: right;
+	
+	width:auto;
+}
+
+.time-box{
+	background-color: #000000;
+		height: 20px;
+	
+}
+
+.show-area li:hover{
+	box-shadow:0px 0px 10px rgba(0,0,0,0.7);
+	
+}

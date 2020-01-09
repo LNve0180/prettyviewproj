@@ -1,0 +1,39 @@
+$(function(){
+	$(".worksCategoryNav").hide();
+	$(".rankingListNav").hide();
+	
+	$(".works-list-area").css("margin-top","55px")
+	
+	$("#seeWorksByWorksCategoryText").mouseover(function(){
+		$(".worksCategoryNav").show();
+		$(".works-list-area").css("margin-top","0px")
+	});
+	$("#seeWorksByWorksCategoryText").mouseleave(function(){
+		$(".worksCategoryNav").hide();
+		$(".works-list-area").css("margin-top","55px")
+	});
+	$("#seeWorksRankText").mouseover(function(){
+		$(".rankingListNav").show();
+		$(".works-list-area").css("margin-top","0px")
+	});
+	$("#seeWorksRankText").mouseleave(function(){
+		$(".rankingListNav").hide();
+		$(".works-list-area").css("margin-top","55px")
+	});
+	$(".worksCategoryNav").mouseover(function(){
+		$(".worksCategoryNav").show();
+		$(".works-list-area").css("margin-top","0px")
+	});
+	$(".worksCategoryNav").mouseleave(function(){
+		$(".worksCategoryNav").hide();
+		$(".works-list-area").css("margin-top","55px")
+	});
+	$(".rankingListNav").mouseover(function(){
+		$(".rankingListNav").show();
+		$(".works-list-area").css("margin-top","0px")
+	});
+	$(".rankingListNav").mouseleave(function(){
+		$(".rankingListNav").hide();
+		$(".works-list-area").css("margin-top","55px")
+	});
+})

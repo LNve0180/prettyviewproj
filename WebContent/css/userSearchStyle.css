@@ -1,0 +1,170 @@
+
+.main-area{
+	width: 980px;
+
+	margin: 0 auto;
+
+	position: relative;
+
+	background-color: #f2f3f5;
+	
+	border-radius: 12px;
+	
+}
+
+.user-area{
+	
+	border: 0;
+
+	margin: 20px 0;
+
+	border-radius: 12px;
+	
+	height: 700px;
+	
+	overflow:auto;
+}
+
+
+.user-list{
+	
+	list-style: none;
+}
+
+.user-item{
+	
+	margin-bottom: 18px;
+	border-radius: 12px;
+    overflow: hidden;
+    border-bottom: 2px solid #e5e9ef;
+    position: relative;
+
+}
+
+
+.user-item:hover{
+	
+	box-shadow:0px 0px 10px  rgba(0,0,0,0.7);
+}
+
+.user-item-msg{
+	
+	padding: 20px 0 0 70px;
+
+	overflow: hidden;
+	
+}
+
+.msg-head{
+	
+	position: relative;
+
+	float: left;
+}
+
+.user-head-img{
+	
+	width: 114px;
+
+	height: 98px;
+}
+
+.user-head-img img{
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+/*head end*/
+
+
+/*info*/
+
+.msg-info{
+	
+	padding-bottom: 20px;
+
+	margin-left: 130px;
+
+	height: 70px;
+
+	position: relative;
+}
+
+
+.username{
+	
+	height: 20px;
+
+	line-height: 20px;
+
+	font-weight: 700;
+	
+	font-size: 18px;
+
+	color: #19a7f0;
+}
+
+
+.ditail{
+	
+	margin-top: 100px;
+
+}
+
+.care{
+	
+	height: 20px;
+
+	color: #b8c0cc;
+
+	line-height: 20px;
+
+	position: absolute;
+
+	bottom: 30px;
+
+	right: 50px;
+
+	text-align: center;
+	
+	background-color: #00A1D6;
+}
+
+.user-intro{
+	width: 80px;
+
+	margin-right: 20px;
+
+	white-space: nowrap;
+
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+	
+	background-color: #f2f3f5;	
+	
+}
+
+.info-num{
+	
+	width: 120px;
+	
+	float: right;
+	
+	margin-right: 50px;
+
+	white-space: nowrap;/*不换行*/
+
+	text-overflow: ellipsis;/*超过空间 显示 ...*/
+
+	overflow: hidden;
+	
+	background-color: #f2f3f5;
+	
+	text-align: center;
+	
+	
+	
+}

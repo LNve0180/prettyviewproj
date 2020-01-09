@@ -1,0 +1,295 @@
+.center{
+	margin-top: 80px;
+}
+
+.main-wrapper-advlong-top{
+	padding: 20px 0;
+	background: #fff;
+}
+.advlong-top{
+	width: 1130px;
+    height: 100px;
+	margin: 0 auto;
+}
+.advlong-default{
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+	
+}
+.advlong-default img{
+	width: 100%;
+	height: 100%;
+}
+.subnav-content-wrap{
+	width: 100%;
+	min-height: 56px;
+	background-color: #fff;
+}    
+.subnav-contentbox{
+	width: 1130px;
+	height: 56px;
+	margin: 0 auto;
+    position: relative;
+    z-index: 2;
+	background-color: #fff;
+}
+.seek-box-ceiling{
+	margin-top: 9px;
+    display: inline-block;
+    float: right;
+}
+.seek-input{
+	margin: 0 auto;
+}
+.seek-box-content{
+	width: 200px;
+    border: 1px solid #dddddd;
+    border-right: none;
+    height: 36px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.seek-box-btn{
+	width: 58px;
+    height: 38px;
+    background-image: url(../images/lnr-magnifier.svg);
+    background-size: 19px 19px;
+    -webkit-background-size: 19px 19px;
+    -moz-background-size: 19px 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 4px 4px 0;
+    vertical-align: middle;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.btn-default-main{
+	color: #444;
+    background: #ffe300;
+    border: 1px solid #ffe300;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.work-list-area{
+	width: 1150px;
+	margin: 0 auto;
+}
+.compatible-title-space{
+	position: relative;
+}
+.album-title{
+	min-height: 14px;
+    line-height: 14px;
+    margin: 20px 0;
+	margin-left: 10px;
+    color: #666;
+    position: relative;
+	font-size: 16px;
+}
+
+/*CARD BOX*/
+.card-box{
+	width: 210px;
+	float: left;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 20px 20px 0;
+}
+
+.card-img{
+	width: 210px;
+    height: 158px;
+}
+.card-img-default {
+	width: 210px;
+    height: 158px
+}
+.card-img-default img{
+	width: 100%;
+	height: 100%;
+}
+
+.card-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.card-info{
+	border-bottom: 1px solid #eee;
+    padding: 11px 16px 13px;
+    height: 75px;
+    position: relative;
+}
+.u-card-info{
+	border-bottom: 1px solid #eee;
+    padding: 11px 16px 13px;
+    height: 95px;
+    position: relative;
+}
+.card-item{
+	height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    font-size: 12px;
+    position: relative;
+}
+
+.card-info-item{
+	font-size: 12px;
+	color: #bbb;
+	/*position: absolute;*/
+	bottom: 14px; 
+
+}
+
+.card-info-title{
+	margin-bottom: 1px;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-info-intro{
+	margin-bottom: 1px;
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 12px;
+	color: #bbb;
+}
+.card-info-type{
+	font-size: 12px;
+    color: #bbb;
+    /* margin-bottom: 17px;
+    height: 18px; */
+	margin-bottom: 13px;
+	 height: 10px;
+}
+
+.show-info-card{
+	width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-info-item span{
+	margin-right: 10px;
+    cursor: default
+}
+.avatar{
+	display: inline-block;
+}
+.avatar a{
+	color: #666;
+}
+.avatar a:hover{
+	color:#EAC100;
+}
+.show-info-card a>img{
+	width: 24px;
+    height: 24px;
+    border: none;
+    vertical-align: middle;
+}
+.time{
+	float: right;
+}
+
+.page-box{
+	width: 1130px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.card-info-title a{
+	color: #282828;
+}
+.card-info-title a:hover{
+	color: #EAC100;
+}
+.h-card-img{
+	width: 210px;
+	height: 120px;
+}
+.div-head{
+	width: 100px;
+	height: 100px;
+	margin-left: 55px;
+	margin-right: 55px;
+	background-color: #fff;
+}
+.div-head img{
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.div-userName{
+	width: 100%;
+	height: 58px;
+	padding-top: 18px;
+	background-color: #123456;
+}
+.p-center{
+	text-align: center;
+}
+.s-careNum{
+	font-size: 14px;
+	color: #666;
+}
+.s-fansNum{
+	font-size: 14px;
+	color: #666;
+}
+/*END CARD BOX*/
+
+/*BEGIN FOOTER*/
+.footer{
+	width: 100%;
+    height: 229px;
+    background: #282828;
+/*    position: absolute; */
+    bottom: 0;
+    color: #666;
+}
+
+.footer-wrapper{
+	height: 100%;
+    margin: 0 auto;
+    background: #282828;
+}
+
+.footer-wrapper-top{
+	width: 1150px;
+    height: 130px;
+    line-height: 130px;
+	margin: 0 auto;
+	
+    border-bottom: 1px solid #333;
+	color: #666;
+}
+
+.footer-wrapper-bottom{
+	margin-top: 20px;
+    position: relative;
+}
+
+/*END FOOTER*/
+
+/*子div套在父div*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

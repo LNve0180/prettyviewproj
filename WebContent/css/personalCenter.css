@@ -1,0 +1,80 @@
+.personalCenterNav {
+	margin-top: 30px;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
+.menu-list-default {
+	padding: 0px;
+}
+
+.menu-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-list a:link,
+.menu-list a:visited {
+	display: block;
+	float: left/*position margin*/
+	padding:0px;
+	width: 200px;
+	height: 40px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+.menu-list a:hover,
+.menu-list>a:active {
+	background-color: #FFE300;
+}
+
+.personalCenterContent {
+	width: 920px;
+	margin-top: 30px;
+	margin-left: 230px;
+	height: 600px;
+	overflow: auto;
+}
+
+.people-home-panel{
+	height: 100px;
+}
+.information-box{
+	height: 50px;
+}
+.find_nav_left{
+	height: 0px;
+}
+.nav-pan{
+	height: 0;
+}
+.user-nick-name{
+	margin-top: 5px;
+}
+
+.user-introduction{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.find_nav{
+	height: 0px;
+}
+.container-area{
+	margin-top: 5px;
+}
+.information-wrap{
+	padding-bottom: 1px;
+}
+.user-occupation{
+	margin-top: 0px;
+}

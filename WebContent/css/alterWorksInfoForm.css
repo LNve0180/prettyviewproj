@@ -1,0 +1,64 @@
+.alterWorksTitle{
+	width:800px;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.alterWorksTitle .panel-heading{
+	height: 45px;
+	padding-top: 11px;
+}
+
+.alterWorksPicture{
+	width:800px;
+	margin: 0 auto;
+	margin-top:10px;
+	text-align: center;
+}
+
+.alterWorksPicture input{
+	display: none;
+}
+
+.alterWorksPicture .panel-heading{
+	height: 45px;
+	padding-top: 11px;
+	text-align: left;
+	
+}
+
+.alterWorksPicture img{
+	width: 400px;
+	height: 400px;
+}
+.alterWorksDetails{
+	width:800px;
+	margin: 0 auto;
+	margin-top:10px;
+}
+.alterWorksDetails .panel-heading{
+	height: 45px;
+	padding-top: 11px;
+}
+.alterWorksDetailsContent{
+	width:400px;
+	margin: 0 auto;
+	box-shadow: none;
+}
+.alterWorksDetailsContent input{
+	background-color: #F3F5F8;
+}
+.alterWorksDetailsContent textarea{
+	background-color: #F3F5F8;
+}
+.alterWorksDetailsContent select{
+	background-color: #F3F5F8;
+}
+.alterWorksButton{
+	width: 400px;
+	background-color: #F3F5F8;
+}
+.panel-body{
+	border-top: 4px solid #F3F5F8;
+}

@@ -1,0 +1,126 @@
+.userPersonalCenter{
+	width: 1000px;
+	height:600px;
+	margin: 60px auto;
+}
+.userPersonalCenterLeft{
+	width: 250px;
+	height: 550px;
+	margin-top: 25px;
+	margin-left: 25px;
+	position: absolute;
+	
+}
+
+
+.userPersonalCenterLeftTop{
+	width: 250px;
+	height: 200px;
+	border: 1px solid #000000;
+	position: absolute;
+	
+}
+
+
+.userPersonalCenterLeftBottom{
+	width: 250px;
+	height: 340px;
+	border: 1px solid #000000;
+	margin-top: 210px;
+	position: absolute;
+
+}
+
+.loginUserHeadPhoto img{
+	width: 100%;
+	height: 100%;
+}
+
+.loginUserHeadPhoto{
+	width: 200px;
+	height: 140px;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 25px;
+	border: 1px solid #000000;
+	
+}
+.loginUserName{
+	margin-top: 145px;
+	margin-left: 40px;
+}
+
+
+
+.centerLi{
+	padding: 10px;
+}
+.centerUl
+  {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  }
+.centerUl a:link,.centerUl a:visited
+  {
+  display:block;
+  float:left /*position margin*/
+  padding:10px;
+  width:200px;
+ 	
+  color:#000000;
+  background-color: linen;
+ 	font-size: 25px;
+  font-weight:bold;
+  text-align:center; 
+  text-decoration:none;
+  text-transform:uppercase;
+  }
+.centerUl a:hover,.centerUl>a:active
+  {
+  background-color:#4d93fa;
+  }
+
+
+.userPersonalCenterRight{
+	width: 675px;
+	height: 550px;
+	border: 1px solid #000000;
+	margin-top: 25px;
+	margin-left: 300px;
+	position: absolute;
+	overflow: auto;
+}
+
+.collectWorks{
+	width: 640px;
+	height: 150px;
+	border-bottom: 1px solid #000000;
+	margin: 10px;
+}
+.collectWorks:hover{
+	box-shadow: 0px 0px 10px #000000;
+	border-bottom: 0px solid #000000;
+}
+
+
+.collectWorksImg
+{
+	width: 140px;
+	height: 140px;
+	margin: 5px 5px 5px 5px;
+	position: absolute;
+}
+.collectWorksImages
+{
+	height: 100%;
+	width: 100%;
+}
+.collectWorksMessage
+{
+	width: 480px;
+	height: 140px;
+	margin: 5px 5px 5px 5px;
+	position: absolute;
+	left: 155px;
+}

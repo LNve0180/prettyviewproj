@@ -1,0 +1,32 @@
+.userRegiest{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 125px;
+	margin-bottom: 100px;
+	opacity: 0.9;
+}
+.userRegiestTitle{
+	text-align: center;
+	font-size: 25px;
+}
+.userRegiestContent{
+	border-top: 5px solid #F3F5F8;
+}
+.userRegiestContent .panel{
+	box-shadow: none;
+}
+.userRegiestContent input{
+	margin-bottom: 15px;
+}
+.userRegiestContent textarea{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.userRegiestContent button{
+	width: 100%;
+}
+.userRegiestBottom{
+	margin-top: 10px;
+	text-align: right;
+}
+

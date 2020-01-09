@@ -1,0 +1,160 @@
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration:none
+}
+
+.head{
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	position: relative;
+	z-index: 1;
+}
+
+.menu-box{
+	width: 1200px;
+	height: 50px;/*  .head height:50px */
+	padding: 0px;
+	background-color: #333;
+	margin:0 auto;
+
+	
+}
+
+.menu-ul-left{
+	
+	height: 50px;/*  .head height:50px */
+	display:inline;
+	margin:0 auto;
+}
+
+.menu-ul-left li{
+	
+	height: 50px;/*  .head height:50px */
+	width: 100px;
+	display:inline;
+	line-height:50px;
+	float:left;
+	text-align: left;
+	cursor:pointer;/*光标*/
+}
+
+.menu-ul-left li a{
+	display: block;
+    color: white;
+    text-align: center;
+	
+	padding: 0,25px;
+    text-decoration: none;
+	
+}
+
+.menu-ul-left li a:hover{
+	background-color: #111;
+	
+}
+
+.menu-ul-right{
+	
+	height: 50px;/*  .head height:50px */
+	display:inline;
+	margin:0 auto;
+
+	
+}
+
+.menu-ul-right li{
+	
+	height: 50px;/*  .head height:50px */
+	width: 100px;
+	display:inline;
+	line-height:50px;
+	float:right;
+	text-align: left;
+	cursor:pointer;/*光标*/
+	
+}
+
+.menu-ul-right li a{
+	display: block;
+    color: white;
+    text-align: center;
+	
+	padding: 0,25px;
+    text-decoration: none;
+	
+}
+
+.menu-ul-right li a:hover{
+	background-color: #111;
+	
+}
+/*右边ul 子菜单ul的属性*/
+.msg-li ul{
+	height: 100px;
+	display:inline;
+	margin:0 auto;
+	
+}
+
+/*右边ul 子菜单ul li的属性*/
+.msg-li-ul li{
+	height: 50px;
+	width: 100px;
+	background-color: #333;
+	
+}
+
+/*history li */
+.history-ul li{
+	height: 250px;
+	width: 300px;
+	background-color: #333;
+	
+}
+
+/*头像区域*/
+.head-box{
+	
+	height: 50px;
+	width: 50px;
+	background-color:#333;
+	
+}
+
+.head-img{
+	height: 50px;
+	width: 50px;
+	background-color:#333;
+	
+	
+	
+}
+
+.head-img img{
+	width: 100%;
+	height: 100%;
+	border-radius:50px;
+}
+
+.morebtn{
+	
+	height: 28px;
+	
+}
+
+
+/*footer*/
+.footer-box{
+	
+	height: 150px;
+	
+	background-color: #333;
+	
+	margin-top:20px;
+	
+}

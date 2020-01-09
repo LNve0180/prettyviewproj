@@ -1,0 +1,218 @@
+*{
+	
+	margin: 0;
+	
+	padding: 0;
+	
+}
+
+.center{
+	
+	width: 1073px;
+	
+	height:1000px;
+	
+	margin: 24px auto 0;
+	
+	background-color: #F2F3F5;
+	
+	border-radius: 12px;
+	
+	box-shadow:0px 0px 10px rgba(0,0,0,0.6);
+
+}
+
+.user-item-msg{
+	
+	padding: 20px auto;
+
+	overflow: hidden;
+	
+	
+	
+}
+
+.msg-head{
+	
+	position: relative;
+
+	float: left;
+}
+
+.author-img{
+	
+	width: 114px;
+
+	height: 98px;
+}
+
+.author-img img{
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+/*head end*/
+
+
+/*info*/
+
+.msg-info{
+
+	margin-left: 130px;
+
+	height: 70px;
+
+	position: relative;
+}
+
+
+.username{
+	
+	height: 20px;
+
+	line-height: 20px;
+
+	font-weight: 700;
+	
+	font-size: 18px;
+
+	color: #19B5E9;
+}
+
+
+.ditail{
+
+	color: #F2F3F5;
+}
+
+.care{
+	
+	height: 20px;
+
+	color: #b8c0cc;
+
+	line-height: 20px;
+
+	position: absolute;
+
+	bottom: 30px;
+
+	right: 50px;
+
+	text-align: center;
+	
+	background-color: #F2F3F5;
+}
+
+.user-intro{
+	
+	width: 80px;
+
+	margin-right: 20px;
+
+	white-space: nowrap;
+
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+	
+	background-color: #F2F3F5;	
+	
+}
+
+.info-num{
+	
+	width: 40px;
+	
+	float: right;
+	
+	
+
+	white-space: nowrap;/*不换行*/
+
+	text-overflow: ellipsis;/*超过空间 显示 ...*/
+
+	overflow: hidden;
+	
+	background-color: #F2F3F5;
+	
+	text-align: center;
+	
+}
+
+.info-num img{
+	
+	width: 40px;
+	
+	border-radius: 50%;
+	
+}
+
+.info-msg{
+	width: 200px;
+	
+	float: right;
+
+	margin-right: 200px;
+	
+	margin-top: 22px;
+	
+	white-space: nowrap;/*不换行*/
+
+	text-overflow: ellipsis;/*超过空间 显示 ...*/
+
+	overflow: hidden;
+	
+	background-color: #F2F3F5;
+	
+}
+
+
+/*history box*/
+.history-box{
+	
+	height: 100px;
+	
+	margin: 10px 10px;
+	
+	background-color: #F2F3F5;
+	
+	border-bottom: 3px solid #e5e9ef;
+	
+	
+	
+	
+}
+
+.time{
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	background-color: #F2F3F5;
+	
+	text-align: center;
+	
+	padding-top: 40px;
+	
+	float: left;
+}
+
+
+.title{
+	
+	font-size: 24px;
+	
+	margin-bottom: 8px;
+	
+	margin-left:10px;
+	
+	background-color: #F2F3F5;
+	
+	border-radius: 12px;
+	
+	border-bottom: 3px solid #e5e9ef;
+}

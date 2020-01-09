@@ -1,0 +1,27 @@
+#userlogin
+{
+	border: solid 1px #000000;
+	width: 300px;
+	height:350px;
+	top: 25%;
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	border-radius: 10px;
+}
+#userRegiestForm
+{
+	border: solid 1px #000000;
+	width: 350px;
+	height:400px;
+	top: 25%;
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	border-radius: 10px;
+}
+.btn{
+	height: 25px;
+	width: 150px;
+	font-size: large;
+}

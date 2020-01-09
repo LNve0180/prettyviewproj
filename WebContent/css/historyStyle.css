@@ -1,0 +1,142 @@
+
+.center{
+	padding-top: 80px;
+	background: url(../images/cjtu06.jpg);
+}
+
+.h-left{
+	float:left;
+}
+.main-body{
+	width: 1130px;
+	min-height: 650px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.adver-panel{
+	height: 200px;
+	background-color: #000000;
+}
+
+.adver-panel img{
+	width: 100%;
+	height: 100%;
+}
+.cbp_tmlabel{
+	padding: 0px;
+	background-color: #fff;
+}
+.history-panel{
+	width: 100%;
+	height: 100px;
+}
+
+.history-img{
+	width: 114px;
+	height: 100px;
+	margin-right: 20px;
+	float: left;
+}
+.history-msg a{
+	color: #000;
+	font-size: 16px;
+}
+.history-msg a:hover{
+	color: #000;
+}
+.history-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+.history-msg{
+	height: 100px;
+	width: 525px;
+	float: left;
+	padding-right: 10px;
+	border-bottom:1px solid #6cbfee;
+}
+.h-user-msg{
+	width: 100%;
+	height: 40px;
+}
+.h-headimg{
+	width: 40px;
+	height: 35px;
+	margin-right: 20px;
+}
+.h-headimg img{
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	border-radius: 50%;
+}
+.delete-box{
+	height: 100px;
+	width: 30px;
+	float: left;
+}
+
+.a-worksName{
+	font-weight: bold;
+}
+
+.p-introduction{
+	text-align: center;
+}
+
+.h-user-info{
+	margin-top: 5px;
+}
+
+.h-user-info span{
+	font-size: 16px;
+	color: #000;
+}
+
+.p-delete{
+	margin-top: 35px;
+	display: block;
+	text-align: center;
+}
+.p-delete span:hover{
+	cursor: pointer;
+	color: #005AB5;
+}
+.btnDelet{
+	color: #6cbfee;
+}
+/*BEGIN FOOTER*/
+.footer{
+	width: 100%;
+    height: 229px;
+    background: #282828;
+/*    position: absolute; */
+    bottom: 0;
+    color: #666;
+}
+
+.footer-wrapper{
+	height: 100%;
+    margin: 0 auto;
+    background: #282828;
+}
+
+.footer-wrapper-top{
+	width: 1150px;
+    height: 130px;
+    line-height: 130px;
+	margin: 0 auto;
+	
+    border-bottom: 1px solid #333;
+	color: #666;
+}
+
+.footer-wrapper-bottom{
+	margin-top: 20px;
+    position: relative;
+}
+
+/*END FOOTER*/

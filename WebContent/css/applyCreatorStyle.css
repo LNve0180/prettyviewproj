@@ -1,0 +1,125 @@
+body{
+	background: url(../images/cjtu06.jpg);
+}
+.center{
+	width: 1130px;
+	/*height:1000px;*/
+	margin: 24px auto 0;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.upload-area{
+	background-color: #fff;
+	padding: 24px 24px 32px 24px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.title{
+	font-size: 20px;
+	margin-bottom: 8px;
+	background-color: #f2f3f5;
+	border-radius: 12px;
+}
+.s-title{
+	margin-left: 10px;
+}
+.upload-name{
+	margin-top: 32px;
+}
+
+.upload-title-text{
+	
+	font-size: 14px;
+	vertical-align: middle;
+	margin: 0 16px 0 4px;
+}
+
+.text-input{
+	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.border-box{
+	
+	width: 362px;
+	height: 32px;
+	border: 1px solid #d3dadf;
+	border-radius: 4px;
+	padding: 0 16px;
+	font-size: 14px;
+	color: #666;
+	caret-color: #fb7299;
+}
+
+.upload-img-box{
+	border-radius: 12px;
+	margin-top:10px;
+}
+.img-box{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #666666;
+	border-radius: 5px;
+}
+.upload-img-title{
+	font-size: 24px;
+	color: #666;
+	margin-bottom: 8px;
+	border-radius: 12px;
+}
+.upload-img{
+	text-align: center;
+}
+
+.face-box{
+	width: 200px;
+	height: 200px;
+	background-color: #456788;
+	margin: 0 100px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.face-box img{
+	
+	width:100%;
+	height: 100%;
+	border-radius: 4px;
+	
+}
+
+.input-img{
+	cursor: pointer;
+	margin: 10px;
+	opacity: 0;
+}
+
+.uploadbtn{
+	height: 35px;
+	width: 200px;
+	border-radius: 5px;
+	border:none;
+	outline-color:-webkit-text;
+	background-color: #00aaff;
+	margin: 10px 100px;
+	background-image: url(../images/uploadword.png);
+	display: none;
+	
+}
+.uploadbtn:hover{
+	background-color: #00a0f0;
+}
+
+.a-style{
+	position: relative;
+}
+
+.sent-box{
+	height: 37px;
+	width: 150px;
+	background-color: #19bff4;
+	margin: 0 auto;
+}
